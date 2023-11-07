@@ -1,6 +1,6 @@
 # Dockerización
 
-- Hasta el momento no ha sido posible ofrecer una solución dockerizada. Se está trabajando en ello. Se espera poder entregarla a final del día.
+- Hasta el momento no ha sido posible ofrecer una solución con docker compose. Se está trabajando en ello. Se espera poder entregarla a final del día.
 
 # Configuración de la base de datos
 
@@ -12,8 +12,16 @@
 
 - Finalmente, dele Run a la aplicación Spring Boot.
 
+# Configuración del BackEnd
+
+- El backend se encuentra en este repositorio, pero si desea acceder a él mediante la imágen dockerizada puede descargar.a
+
+- descargar la imagen del backend ---->>> docker pull amilder/repos:1.2
+
 
 # Configuración FrontEnd
+
+- descargar la imágen del frontEnd ---->>>  docker pull amilder/repos:1.0
 
 - npm inatall
 
