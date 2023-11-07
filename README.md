@@ -33,7 +33,7 @@
     username: "factored",
     password: "factored"
   }
-  Por favor ingresar sólo con ese usuario y contraseña.
+  Usted puede cambiar el usuario y contraseña al momento de hacer el query MySQL cuando esté creando el user principal. Sólo este user puede entrar a la aplicación por lo que su correcto ingreso a la base de datos es imperativo para que pueda probar la app. 
   
 
  
