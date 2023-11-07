@@ -117,3 +117,62 @@ COLLATE = utf8mb4_0900_ai_ci;
 SET SQL_MODE=@OLD_SQL_MODE;
 SET FOREIGN_KEY_CHECKS=@OLD_FOREIGN_KEY_CHECKS;
 SET UNIQUE_CHECKS=@OLD_UNIQUE_CHECKS;
+
+INSERT INTO user (username, password, firstname, lastname, email) 
+VALUES('factored', 'factored', 'factored', 'factored', 'factored@gmail.com');
+
+INSERT INTO empleados (nombre, posicion) VALUES ('Amilder', 'Software Developer');
+INSERT INTO empleados (nombre, posicion) VALUES ('Denilson', 'Data Scientist');
+INSERT INTO empleados (nombre, posicion) VALUES ('Natalia', 'Ingeniera en Robótica');
+INSERT INTO empleados (nombre, posicion) VALUES ('Samuel', 'Ingeniero Dev-Ops');
+INSERT INTO empleados (nombre, posicion) VALUES ('Berro', 'Discord Admin');
+
+
+INSERT INTO skills (nombre) VALUES ('Java');
+INSERT INTO skills (nombre) VALUES ('React');
+INSERT INTO skills (nombre) VALUES ('MySQL');
+INSERT INTO skills (nombre) VALUES ('Docker');
+INSERT INTO skills (nombre) VALUES ('JavaScript');
+INSERT INTO skills (nombre) VALUES ('Python');
+INSERT INTO skills (nombre) VALUES ('R');
+INSERT INTO skills (nombre) VALUES ('Pandas');
+INSERT INTO skills (nombre) VALUES ('Tensorflow');
+INSERT INTO skills (nombre) VALUES ('Spring Boot');
+INSERT INTO skills (nombre) VALUES ('Angular');
+INSERT INTO skills (nombre) VALUES ('C++');
+INSERT INTO skills (nombre) VALUES ('Html');
+
+
+INSERT INTO empleados_skills (empleado_id, skill_id, nivel) VALUES ('1', '1', '4');
+INSERT INTO empleados_skills (empleado_id, skill_id, nivel) VALUES ('1', '2', '3');
+INSERT INTO empleados_skills (empleado_id, skill_id, nivel) VALUES ('1', '3', '4');
+INSERT INTO empleados_skills (empleado_id, skill_id, nivel) VALUES ('1', '4', '2');
+INSERT INTO empleados_skills (empleado_id, skill_id, nivel) VALUES ('1', '5', '5');
+INSERT INTO empleados_skills (empleado_id, skill_id, nivel) VALUES ('1', '10', '4');
+
+INSERT INTO empleados_skills (empleado_id, skill_id, nivel) VALUES ('2', '6', '1');
+INSERT INTO empleados_skills (empleado_id, skill_id, nivel) VALUES ('2', '7', '4');
+INSERT INTO empleados_skills (empleado_id, skill_id, nivel) VALUES ('2', '8', '4');
+INSERT INTO empleados_skills (empleado_id, skill_id, nivel) VALUES ('2', '9', '3');
+INSERT INTO empleados_skills (empleado_id, skill_id, nivel) VALUES ('2', '3', '2');
+
+INSERT INTO empleados_skills (empleado_id, skill_id, nivel) VALUES ('3', '6', '3');
+INSERT INTO empleados_skills (empleado_id, skill_id, nivel) VALUES ('3', '1', '3');
+INSERT INTO empleados_skills (empleado_id, skill_id, nivel) VALUES ('3', '13', '2');
+INSERT INTO empleados_skills (empleado_id, skill_id, nivel) VALUES ('3', '12', '1');
+INSERT INTO empleados_skills (empleado_id, skill_id, nivel) VALUES ('3', '5', '1');
+
+INSERT INTO empleados_skills (empleado_id, skill_id, nivel) VALUES ('4', '3', '4');
+INSERT INTO empleados_skills (empleado_id, skill_id, nivel) VALUES ('4', '5', '3');
+INSERT INTO empleados_skills (empleado_id, skill_id, nivel) VALUES ('4', '6', '4');
+INSERT INTO empleados_skills (empleado_id, skill_id, nivel) VALUES ('4', '8', '1');
+INSERT INTO empleados_skills (empleado_id, skill_id, nivel) VALUES ('4', '13', '5');
+
+INSERT INTO empleados_skills (empleado_id, skill_id, nivel) VALUES ('5', '1', '5');
+INSERT INTO empleados_skills (empleado_id, skill_id, nivel) VALUES ('5', '4', '5');
+INSERT INTO empleados_skills (empleado_id, skill_id, nivel) VALUES ('5', '11', '5');
+INSERT INTO empleados_skills (empleado_id, skill_id, nivel) VALUES ('5', '12', '5');
+INSERT INTO empleados_skills (empleado_id, skill_id, nivel) VALUES ('5', '10', '5');
+
+
+
