@@ -10,6 +10,8 @@
 
 - una vez configurado el esquema. Note que la base de datos se llame "factored_demo2". En caso contrario, por favor haga el cambio en el application.properties de Spring boot para que haga "match" con la nueva base de datos.
 
+- Finalmente, dele Run a la aplicación Spring Boot.
+
 
 # Configuración FrontEnd
 
