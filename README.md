@@ -2,6 +2,8 @@
 
 - Hasta el momento no ha sido posible ofrecer una solución con docker compose. Se está trabajando en ello. Se espera poder entregarla a final del día.
 
+- Se dockerizó tanto el back end como el front end: ambas soluciones pueden ser vistas: https://hub.docker.com/r/amilder/repos
+
 # Configuración de la base de datos
 
 - Para el funcionamiento correcto de este proyecto se requiere crear un esquema de bases de datos MySQL de forma manual y en el puerto 3306
